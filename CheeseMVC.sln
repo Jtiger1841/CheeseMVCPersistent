@@ -3,6 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4540E26-4149-4E03-AA4B-FDC5D690A52F}"
+	ProjectSection(SolutionItems) = preProject
+		src\CheeseMVC\Views\Category\Index.cshtml = src\CheeseMVC\Views\Category\Index.cshtml
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheeseMVC", "src\CheeseMVC\CheeseMVC.csproj", "{6AFD9555-CD44-4530-AEFF-15264D392DF0}"
 EndProject
@@ -34,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6AFD9555-CD44-4530-AEFF-15264D392DF0} = {E4540E26-4149-4E03-AA4B-FDC5D690A52F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33ABA9B5-986B-472A-882A-2A69752CA2F0}
 	EndGlobalSection
 EndGlobal

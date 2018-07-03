@@ -5,6 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\AddCategoryViewModel.cs" Link="ViewModels\AddCategoryViewModel.cs" />
+    <Compile Include="..\..\AddMenuViewModel.cs" Link="ViewModels\AddMenuViewModel.cs" />
+    <Compile Include="..\..\CategoryController.cs" Link="Controllers\CategoryController.cs" />
+    <Compile Include="..\..\CheeseMenu.cs" Link="Models\CheeseMenu.cs" />
+    <Compile Include="..\..\Menu.cs" Link="Models\Menu.cs" />
+    <Compile Include="..\..\MenuController.cs" Link="Controllers\MenuController.cs" />
+    <Compile Include="..\..\ViewMenuViewModel.cs" Link="ViewModels\ViewMenuViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.4" />
@@ -16,6 +26,7 @@
   
 <ItemGroup>
   <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" />
+  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
 </ItemGroup>
 
